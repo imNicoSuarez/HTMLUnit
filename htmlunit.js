@@ -7,11 +7,14 @@ var htmlunit = new HTMLUnit(argv._)
 
 
 
-htmlunit.stackOfTests('Is a first tesing html', function(test){
+htmlunit.stackOfTests('Testing on file test.html', function(test){
   test.include('div');
   test.include('body');
   test.include('html');
   test.include('footer');
   test.include('head');
+
+  test.tag('html').notIncludeOn('body');
+  test.tag('nav').includeOn('body');
 });
 
