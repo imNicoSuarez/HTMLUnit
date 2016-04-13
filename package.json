@@ -1,0 +1,30 @@
+{
+  "name": "HTMLUnit",
+  "version": "0.0.1",
+  "description": "This a unit testing for html.",
+  "main": "htmlunit",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imNicoSuarez/HTMLUnit.git"
+  },
+  "keywords": [
+    "Testing",
+    "HTML"
+  ],
+  "author": "Nicolas Suarez <nicolassuarez.cabrera@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imNicoSuarez/HTMLUnit/issues"
+  },
+  "homepage": "https://github.com/imNicoSuarez/HTMLUnit",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "domhandler": "^2.3.0",
+    "htmlparser2": "^3.9.0",
+    "lodash": "^4.10.0",
+    "optimist": "^0.6.1"
+  }
+}
