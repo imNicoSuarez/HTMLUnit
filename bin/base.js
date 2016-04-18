@@ -1,3 +1,5 @@
+'use strinct'
+
 var BaseObject = function(tag){
   this.name = tag.name;
   this.type = tag.type;

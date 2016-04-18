@@ -20,7 +20,7 @@ var HTMLUnit = function(files){
 HTMLUnit.prototype.stackOfTests = function(desciption, callback) {
 
   if (typeof desciption !== 'undefined')
-    console.log("Description: %s \n\n", desciption);
+    console.log("\n\n %s \n", desciption);
 
   var test = new TestBase(HTMLUnit.prototype.htmlData)
 
